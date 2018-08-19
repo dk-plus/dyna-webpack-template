@@ -1,0 +1,33 @@
+{
+  "name": "dyna-webpack-template",
+  "version": "0.1.0",
+  "description": "this is a webpack-project-template of dyna.",
+  "main": "src/modules/app/index/index.js",
+  "author": "dkplus",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack -w --progress",
+    "prod": "webpack -p"
+  },
+  "dependencies": {
+    "art-template": "^3.1.3",
+    "ejs-loader": "^0.3.0",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "json-loader": "^0.5.7",
+    "less": "^2.3.1",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.19.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.11.0",
+    "express": "^4.16.3"
+  }
+}
